@@ -3,12 +3,8 @@ from tkinter import ttk
 from tkinter import messagebox, Label
 from tkinter_uix.Entry import Entry
 import mysql.connector as sql
-import login as l
-from creds import user_pwd
-
-# mycon = sql.connect(host='localhost', user='root', passwd=user_pwd, database='mydb')
-# cur = mycon.cursor()
-
+import modules.login as l
+from modules.creds import user_pwd
 
 def get_details(email):
     global name, company, gen, recid

@@ -2,14 +2,10 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter_uix.Entry import Entry
 import mysql.connector as sql
-from register import *
-from recruiter import *
-from client import *
-from creds import user_pwd
-
-# mycon = sql.connect(host='localhost', user='root', passwd=user_pwd, database='mydb')
-# cur = mycon.cursor()
-
+from modules.register import *
+from modules.recruiter import *
+from modules.client import *
+from modules.creds import user_pwd
 
 def success(root, email1):
     global f
