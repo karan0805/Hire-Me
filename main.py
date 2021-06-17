@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-from login import *
+from modules.login import *
 
 root = Tk()
 root.geometry("1050x700")
