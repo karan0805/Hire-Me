@@ -6,11 +6,6 @@
 
 ###  DBMS Mini-project: Recruitment Management System.💫✨
 
-[
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/karan0805/Hire-Me/issues) [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/karan0805/Hire-Me) 
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/karan0805/Hire-Me) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/karan0805/Hire-Me)
-
 
 # Features
 - ***Python + MYSQL using mysql.connector library***
@@ -63,6 +58,12 @@ python main.py
 - More Features can be added like we can make Resume on it and can share to nearby recruiters
 -  Super-User(Admin) Panel For Future Features.
 - many more ...
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/karan0805/Hire-Me/issues) 
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/karan0805/Hire-Me) 
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/karan0805/Hire-Me) 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/karan0805/Hire-Me)
 
 ### If you encounter any difficulty running it, feel free to contact on my email :smile:
 
