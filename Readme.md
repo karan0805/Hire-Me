@@ -1,5 +1,5 @@
 # Hire-ME
-![ToofanXpress](screenshots/HireMe.png)
+![Hire-ME](screenshots/HireMe.png)
 DBMS Mini-project: Recruitment Management System.
 
 Hey There !
