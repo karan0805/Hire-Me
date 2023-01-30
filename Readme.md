@@ -34,11 +34,6 @@ git clone https://github.com/karan0805/Hire-Me.git
 cd Hire-ME
 ```
 
-##### To install the dependencies, simply write
-
-```bash
-pip install -r requirements.txt
-```
 ##### Make sure MYSQL is running on your System . Now move to `creds.py` inside modules folder and replace the value of `user_pwd`
 ```
  user_pwd = "your mysql password"
