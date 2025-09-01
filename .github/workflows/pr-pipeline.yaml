@@ -1,0 +1,45 @@
+name: Pull Request Pipeline
+
+on:
+    pull_request:
+
+jobs:
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: clone repo
+              uses: actions/checkout@v4
+
+            - name: setup python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.11'
+            
+            - name: install poetry
+              run: pip install poetry
+
+            - name: install project deps
+              run: poetry install --no-root --only lint
+
+            - name: check linting
+              run: poetry run ruff check app/
+
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: clone repo
+              uses: actions/checkout@v4
+
+            - name: setup python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.11'
+            
+            - name: install poetry
+              run: pip install poetry
+
+            - name: install project deps
+              run: poetry install --no-root --with test
+
+            - name: run tests
+              run: poetry run pytest -vvv

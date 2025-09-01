@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "hire-me-esii-final-project"
+version = "0.1.0"
+description = ""
+authors = ["Dont Know the Guy's Name"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11.10"
+PyYAML = ">=6.0.2,<7.0.0"
+mysql-connector-python = "^9.4.0"
+dotenv = "^0.9.9"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.3.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.4.1"
+pytest-cov = "^6.2.1"
+
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.12.11"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PT', 'PL']
+ignore = ["PLR0917", "PLR0913", "PLW0603", "PLR0914", "F821", "PLW0602"]
+
+[tool.ruff.format]
+preview = true
