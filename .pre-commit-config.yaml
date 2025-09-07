@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-ast
+      - id: check-docstring-first
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-docstring-first
+      - id: no-commit-to-branch
+        args: ["--branch", "main"]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.11
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+        files: ^app/
+      - id: ruff-format
+        files: ^app/
